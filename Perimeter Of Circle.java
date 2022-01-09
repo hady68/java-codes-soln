@@ -1,0 +1,24 @@
+package com.company;
+
+import javax.swing.plaf.synth.SynthLookAndFeel;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+        Scanner in= new Scanner(System.in);
+        System.out.println("Enter the radius for perimeter of circle");
+        float r= in.nextFloat();
+        System.out.println("the perimeter of circle is :"+(2*3.14*r));
+
+    }
+    }
+
+
+
+
+
+
+
+
+
+
